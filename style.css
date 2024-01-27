@@ -1,9 +1,14 @@
+/*GLOBAL*/
 *{
     margin: 0;
     padding: 0;
 }
 body{
     background-color: #ecfeff;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 /* HEADER */ 
 .header{
@@ -13,19 +18,55 @@ body{
 
 .searchBar{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 240px;
+    align-items: center;
 }
 .searchBar > input{
     width: 500px;
     height: 25px;
     border-radius: 30px;
 }
+.bell {
+    width: 8rem;
+    height: 3rem;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .titleBar{
     display: flex;
+    align-items: center;
+}
+.titleNav{
+    
+}
+.titleNav > ul{
+    
+}
+.titleNav > ul > li{
+     padding: 5px;
+     margin: 0 43px;
+     border-radius: 24px;
+     width: 100px;
+     text-align: center;
+     background-color: #2fe1f9;
+}
+.profile{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 12px;
+
 }
 .titleNav > ul{
     list-style: none;
+    display: flex;
+    gap: 15px;
 }
+
 /*NAVBAR*/
 
 /*MAIN/
