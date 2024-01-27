@@ -5,6 +5,9 @@
 }
 body{
     background-color: #ecfeff;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 }
 a{
     text-decoration: none;
@@ -14,6 +17,7 @@ a{
 .header{
     background-color: white;
     padding: 5px;
+    height: 0;
 }
 
 .searchBar{
@@ -68,6 +72,10 @@ a{
 }
 
 /*NAVBAR*/
+.navBar{
+    background-color: #2fe1f9;
+    grid-row: 1 / 4;
+}
 
 /*MAIN/
 
