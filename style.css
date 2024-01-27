@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ecfeff;
+}
+/* HEADER */ 
+.header{
+    background-color: white;
+    padding: 5px;
+}
+
+.searchBar{
+    display: flex;
+    justify-content: space-between;
+}
+.searchBar > input{
+    width: 500px;
+    height: 25px;
+    border-radius: 30px;
+}
+.titleBar{
+    display: flex;
+}
+.titleNav > ul{
+    list-style: none;
+}
+/*NAVBAR*/
+
+/*MAIN/
+
+/*FOOTER*/
