@@ -8,12 +8,20 @@ body{
     height: 100vh;
     display: grid;
     grid-template-columns: 200px 4fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 4fr;
 }
 a{
     text-decoration: none;
     color: white;
 }
+
+/*NAVBAR*/
+
+.navBar{
+    background-color: #2fe1f9;
+    grid-row: 1 / 4;
+}
+
 /* HEADER */ 
 .header{
     background-color: white;
@@ -71,13 +79,6 @@ a{
     display: flex;
     gap: 15px;
 }
-
-/*NAVBAR*/
-.navBar{
-    background-color: #2fe1f9;
-    grid-row: 1 / 4;
-}
-
 /*MAIN/
 
 /*FOOTER*/
