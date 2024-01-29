@@ -11,7 +11,7 @@
     font-family: Roboto-light;
 }
 body{
-    background-color: #ecfeff;
+    background-color: rgb(226,232,240);
     height: 100vh;
     display: grid;
     grid-template-columns: 283px 4fr;
@@ -39,7 +39,6 @@ a{
     height: 27px;
     margin: 0 30px 0;
     vertical-align: middle;
-    color: white;
 }
 img{
     color: white;
@@ -55,41 +54,70 @@ img{
 /* HEADER */ 
 .header{
     background-color: white;
-    padding: 5px;
+    padding: 18px 10px 0;
     height: 150px;
 }
 
 .searchBar{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     gap: 240px;
     align-items: center;
 }
-.searchBar > input{
+.searchInput{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.searchBar  input{
     width: 500px;
     height: 25px;
+    margin-left: 23px;
+    border: none;
     border-radius: 30px;
+    background-color: rgb(226,232,240);
 }
-.bell {
-    width: 8rem;
-    height: 3rem;
+.searchLogo{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.search{
+    width: 100%;
+}
+.bell{
+    width: 50px;
+    height: 50px;
+    margin: 0 30px 0;
+    vertical-align: middle;
+}
+.github{
+    width: 50px;
+    height: 50px;
+    margin: 0 30px 0;
+    vertical-align: middle;
 }
 .banner{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .titleBar{
     display: flex;
     align-items: center;
+    padding-left: 20px;
 }
-
+.titleNav > ul {
+    padding-right: 30px;
+}
 .titleNav > ul > li{
      padding: 5px;
-     margin: 0 43px;
+     margin: 0 8px;
      border-radius: 24px;
      width: 100px;
      text-align: center;
+     background-color: var(--blue);
 }
 .profile{
     width: 4rem;
