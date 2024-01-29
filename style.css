@@ -21,7 +21,10 @@ a{
     background-color: #2fe1f9;
     grid-row: 1 / 4;
 }
-
+.navImg{
+    width: 27px;
+    height: 27px;
+}
 /* HEADER */ 
 .header{
     background-color: white;
