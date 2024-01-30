@@ -135,7 +135,7 @@ img{
 
 .main{
     display: grid;
-    grid-template-columns: 283px 4fr;
+    grid-template-columns: 7fr 3fr;
     grid-template-rows: 1fr 4fr;
     padding: 26px 18px;
 }
@@ -145,7 +145,7 @@ img{
 }
 .projects{
     display: grid;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 365px 365px;
     grid-template-rows: 250px 250px;
     gap: 14px;
 }
