@@ -131,6 +131,29 @@ img{
     display: flex;
     gap: 15px;
 }
-/*MAIN/
+/*MAIN*/
+
+.main{
+    display: grid;
+    grid-template-columns: 283px 4fr;
+    grid-template-rows: 1fr 4fr;
+    padding: 26px 18px;
+}
+.myProjects{
+    grid-row: 1/4;
+    
+}
+.projects{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 250px 250px;
+    gap: 14px;
+}
+article{
+    border: 1px solid black;
+}
+.javaEx{
+    
+}
 
 /*FOOTER*/
