@@ -53,6 +53,9 @@ img{
     list-style: none;
     margin: 21px 0;
 }
+.fa-house {
+color: red;
+}
 /* HEADER */ 
 .header{
     background-color: white;
