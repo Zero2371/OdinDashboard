@@ -162,6 +162,11 @@ article{
     width: 27px;
     height: 27px;
 }
+.etchASketch{
+    width: 95%;
+    height: 80%;
+    padding: 0 0 0 9px;
+}
 .javaEx{
     
 }
