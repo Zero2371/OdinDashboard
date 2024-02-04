@@ -180,8 +180,14 @@ article{
     margin-right: 13px;
     gap: 14px;
 }
+.exerciseBox{
+    height: 300px;
+}
 .javaEx{
-    
+    border: 1px solid black;
+}
+.cssEx{
+    border: 1px solid black;
 }
 
 /*FOOTER*/
