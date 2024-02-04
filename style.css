@@ -38,7 +38,7 @@ a{
     width: 30px;
     height: 30px;
     margin: 0 30px 0;
-    color: red;
+    fill: white;
     vertical-align: middle;
 }
 .toggleIcon{
@@ -115,14 +115,17 @@ img{
     padding-left: 20px;
 }
 .titleNav > ul {
+    font-size: 14px;
     padding-right: 30px;
 }
 .titleNav > ul > li{
      padding: 5px;
      margin: 0 8px;
      border-radius: 24px;
-     width: 100px;
+     width: 80px;
+     height: 24px;
      text-align: center;
+     line-height: 1.8em;
      background-color: var(--blue);
 }
 .profile{
