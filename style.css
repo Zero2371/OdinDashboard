@@ -144,7 +144,7 @@ img{
 
 .main{
     display: grid;
-    grid-template-columns: 7fr 3fr;
+    grid-template-columns: 6fr 2fr;
     grid-template-rows: 1fr 4fr;
     padding: 26px 18px;
 }
@@ -154,8 +154,8 @@ img{
 }
 .projects{
     display: grid;
-    grid-template-columns: 365px 365px;
-    grid-template-rows: 250px 250px;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 280px 280px;
     gap: 14px;
 }
 article{
@@ -180,8 +180,12 @@ article{
     margin-right: 13px;
     gap: 14px;
 }
+.Exercises{
+    padding: 7px 0;
+}
 .exerciseBox{
     height: 170px;
+    width: 170px;
     padding: 50px;
     background-color: white;
     border-radius: 10px;
