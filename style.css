@@ -156,7 +156,11 @@ img{
     gap: 14px;
 }
 article{
-    border: 1px solid black;
+    border: 1px solid white;
+    border-left: 10px solid orange;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: white;
 }
 .articleLogos{
     width: 27px;
@@ -166,6 +170,12 @@ article{
     width: 95%;
     height: 80%;
     padding: 0 0 0 9px;
+}
+.articleRow{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 13px;
+    gap: 14px;
 }
 .javaEx{
     
